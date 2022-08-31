@@ -6,7 +6,7 @@ basic.forever(function () {
         pins.digitalWritePin(DigitalPin.P2, 45)
         basic.showIcon(IconNames.Happy)
     } else {
-        pins.digitalWritePin(DigitalPin.P2, 45)
+        pins.digitalWritePin(DigitalPin.P2, 0)
         basic.showIcon(IconNames.Sad)
     }
 })
